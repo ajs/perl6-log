@@ -18,6 +18,6 @@ module to work.
 === Example Use Case ===
 
 use Log;
-our $logger = Log.get_logger(:level(Log.levels<debug>), :facility('myprog'))
+our $logger = Log.get_logger(:level(%Log::levels<debug>), :facility('myprog'));
 $logger.debug("OK, I set up a logger");
 $logger.critical("But now I give up");

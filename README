@@ -1,0 +1,23 @@
+Loging for Perl 6
+-----------------
+
+This project is intended to be a simple base-class for logging
+in Perl 6. Some logging features in other languages make sense,
+I think to move out to other places. For example, if you want
+rotated logs, it probably makes sense to have a file handle
+that rotates its output and then pass it to Log. There could be
+a wrapper class for that if you like. Of course, on some platforms
+doing your own log-rotating might be considered antisocial, YMMV.
+
+Use 'ufo' to generate the Makefile for this project.
+See http://github.com/masak/ufo for more details.
+
+You need the DateTime::Utils module from temporal-utils for this
+module to work.
+
+=== Example Use Case ===
+
+use Log;
+our $logger = Log.get_logger(:level(Log.levels<debug>), :facility('myprog'))
+$logger.debug("OK, I set up a logger");
+$logger.critical("But now I give up");

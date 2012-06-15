@@ -1,0 +1,21 @@
+=pod
+
+    People who have contributed to Log.
+
+    It is sorted by name and formatted to allow easy
+    grepping and beautification by scripts.
+    The fields are: name (N), email (E), web-address (W),
+    description (D), github username (U) and snail-mail
+    address (S).
+
+	0PS: Yes, this looks remarkably like the temporal-utils format
+        PS: Yes, this looks remarkably like the Linux CREDITS format
+        PPS: This file is encoded in UTF-8
+
+----------
+
+N: Aaron Sherman
+E: ajs@ajs.com
+U: ajs
+
+=cut

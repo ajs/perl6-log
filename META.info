@@ -2,6 +2,6 @@
   "name"        : "Log",
   "version"     : "*",
   "description" : "Basic, modular logging facility",
-  "depends"     : [ 'DateTime::Utils' ],
+  "depends"     : [ "DateTime::Utils" ],
   "source-url"    : "git://github.com/ajs/perl6-log.git"
 }
